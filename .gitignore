@@ -1,0 +1,2 @@
+#This file store the pattern pf the file that the git gonna ignore in pushing or fetching.
+*~
