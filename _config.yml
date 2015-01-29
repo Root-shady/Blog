@@ -1,3 +1,6 @@
 markdown: redcarpet
 baseurl: /Blog
 exclude: ['README.md']
+email: knightdawner@gmail.com
+github_username: root-shady
+
