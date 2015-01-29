@@ -17,12 +17,13 @@
 #footer #navigation
 {
   list-style-type: none;
+  margin-left: 100px;
 }
 #footer li
 {
   display: inline;
   padding: 10px;
-  margin-left: 100px;
+  margin-left: 80px;
   float: left;
   
 }

@@ -14,7 +14,7 @@
   font-size: 32px;
   width:350px;
   margin-top: 5px;
-  margin-left: 350px;
+  margin-left: 150px;
   font-weight: blod;
   float: left;
 }
@@ -27,12 +27,13 @@
 #navigation
 {
   list-style-type: none;
+  margin-left: 600px;
 }
 li
 {
   display: inline;
   padding: 10px;
-  margin-left: 50px;
+  margin-right: 80px;
   float: left;
   /*padding-top: 30px;*/
   
