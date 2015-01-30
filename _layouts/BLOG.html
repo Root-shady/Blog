@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link href="{{site.baseurl}}/css/content.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id = "container">
+	{% include header.html %}
+
+    <div id = "body">
+       <div class = "category">   
+          <pre>
+          <span id = "title"> Categories</span><span id = "word">                   All of the buildings, all of those cars were once just a dream in somebody's head.</span>
+         </pre>
+         <ul>
+            <li><a href = "{{site.baseurl}}\SQL.html"> SQL Learning</a></li>
+	    <li><a href = "{{site.baseurl}}\Linux.html"> Linux Explore</a></li>
+	    <li><a href = "{{site.baseurl}}\Programming.html"> Datastructure</a></li>
+	    <li><a href = "{{site.baseurl}}\Unsorted.html">Unsoted</a></li>
+          </ul>
+        </div>
+    
+	<div id = "style">
+		{{content}}
+	</div>
+    </div>
+
+    	{% include footer.html %}
+  </div>
+</body>
+</html>

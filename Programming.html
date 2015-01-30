@@ -1,0 +1,26 @@
+---
+layout: page
+---
+<div class = "category">   
+  <pre>
+    <span id = "title"> Categories</span><span id = "word">                   All of the buildings, all of those cars were once just a dream in somebody's head.</span>
+  </pre>
+     <ul>
+        <li><a href = "{{site.baseurl}}\SQL.html"> SQL Learning</a></li>
+	<li><a href = "{{site.baseurl}}\Linux.html"> Linux Explore</a></li>
+	<li><a href = "{{site.baseurl}}\Programming.html"> Datastructure</a></li>
+	<li><a href = "{{site.baseurl}}\Unsorted.html">Unsoted</a></li>
+      </ul>
+</div>
+<!-- Up to 12 posts show in the blog home page.-->
+<div class = "loop">
+    <ul>
+    {% for post in site.categories.datastructure limit:12 %}
+      <li>
+	<p>{{post.date | date: '%B %d, %Y'}}</p>
+       <span> <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+      </li>
+    {% endfor %}
+
+    </ul>
+</div>

@@ -16,6 +16,15 @@ html, body{
 	padding: 10px;
 	padding-bottom: 80px;
 	height: 100%;
-	background: #262626 url("../img/woman.jpg") no-repeat center center;
+	background: #262626 url("../img/hand.jpg") no-repeat center center;
 	background-size: cover;
+}
+#self
+{
+  width: 320px;
+  height: 100px;
+  color: #E0E0D1;
+  font-size: 18px;
+  margin-top: 280px;;
+  margin-left: 40%;
 }

@@ -14,7 +14,7 @@ html, body{
 	padding: 10px;
 	padding-bottom: 80px;
 	height: 100%;
-	background: #262626 url("../img/black.jpg") no-repeat center center;
+	background: #262626 url("../img/nice.jpg") no-repeat center center;
 	background-size: cover;
 }
 /*Content Formating*/
@@ -53,34 +53,10 @@ html, body{
 {
 	color:#FF0000;
 }
-.loop{
-/*固定长度， 在博客列表中*/
-	height: 1000px;
+#style{
+	color: #CCFFFF;
 }
-
-.loop li
+#style a
 {
-	display: block;
-	float: left;
-	margin-left: 500px;
-}
-.loop a
-{
-	
-	text-decoration: none;
-	font-family: verdana;
-	color: #EDEDED;
-	font-size: 20px;
-}
-.loop li p{
-	font-size: 15px;
-	color: #CCFFCC;
-}
-.loop a:hover
-{
-	color: #FFFF33;
-}
-.loop a:visited
-{
-	color: #0099FF;
+	color: black;
 }

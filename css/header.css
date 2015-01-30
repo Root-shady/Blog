@@ -1,3 +1,4 @@
+/*head  */
 #nav
 {
   background-color: #262626;
@@ -11,10 +12,10 @@
 {
   color: #EDEDED;
   font-family: verdana;
-  font-size: 32px;
+  font-size: 38px;
   width:350px;
   margin-top: 5px;
-  margin-left: 150px;
+  margin-left: 200px;
   font-weight: blod;
   float: left;
 }
@@ -27,14 +28,15 @@
 #navigation
 {
   list-style-type: none;
-  margin-left: 600px;
+  padding-bottom: 5px;
+  margin-right: 100px;
 }
 li
 {
   display: inline;
   padding: 10px;
-  margin-right: 80px;
-  float: left;
+  margin-right: auto;
+  float: right;
   /*padding-top: 30px;*/
   
 }
